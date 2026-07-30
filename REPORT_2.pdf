@@ -1,0 +1,1030 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R] /Count 7 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman /Encoding /WinAnsiEncoding >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold /Encoding /WinAnsiEncoding >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Italic /Encoding /WinAnsiEncoding >>
+endobj
+10 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-BoldItalic /Encoding /WinAnsiEncoding >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+12 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold /Encoding /WinAnsiEncoding >>
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+14 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-BoldOblique /Encoding /WinAnsiEncoding >>
+endobj
+15 0 obj
+<< /Length 3018 >>
+stream
+0.29 0.33 0.99 rg
+56.69 732.04 446.91 12.48 re
+f
+0.29 0.33 0.99 rg
+56.69 715 92.06 12.48 re
+f
+0 g
+BT
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 773.2 Tm
+(PROJECT REPORT 2) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 756.16 Tm
+(Results and Interpretation) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 734.92 Tm
+(Event-Driven CSV Data Ingestion and Graph-Based Chatbot using FastAPI, Apache) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 717.88 Tm
+(Kafka, and Neo4j) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 700.84 Tm
+(Project Title) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 666.76 Tm
+(1. Introduction) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 632.68 Tm
+(This report presents the implementation results and interpretation of the Event-Driven CSV) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 615.64 Tm
+(Data Ingestion and Graph-Based Chatbot system. The project was designed to automate) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 598.6 Tm
+(CSV data ingestion, enable scalable message streaming using Apache Kafka, store) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 581.56 Tm
+(structured information in Neo4j, and provide natural language access to the uploaded data) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 564.52 Tm
+(through a chatbot. Unlike traditional database systems that require manual querying, the) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 547.48 Tm
+(implemented solution allows users to upload a CSV file and interact with the data using) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 530.44 Tm
+(conversational questions.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 496.36 Tm
+(2. Implementation Summary) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 462.28 Tm
+(The project was successfully implemented as a modular event-driven system consisting of) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 445.24 Tm
+(the following components:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 411.16 Tm
+(Frontend for CSV upload and chatbot interaction.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 394.12 Tm
+(FastAPI backend for API management.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 377.08 Tm
+(Pandas for CSV reading and preprocessing.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 360.04 Tm
+(Apache Kafka for asynchronous message streaming.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 343 Tm
+(Kafka Consumer \(Loader\) for processing incoming messages.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 325.96 Tm
+(Neo4j Graph Database for storing structured graph data.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 308.92 Tm
+(Cypher Query Engine for retrieving information.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 291.88 Tm
+(Docker Compose for deployment and service orchestration.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 257.8 Tm
+(The implementation ensures that each component is independent, scalable, and easy to) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 240.76 Tm
+(maintain.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 206.68 Tm
+(3. Overall Workflow) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 172.6 Tm
+(The complete workflow of the system is illustrated below.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 138.52 Tm
+(User) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 121.48 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 104.44 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 87.4 Tm
+(Upload CSV) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 70.36 Tm
+(?) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 1 of 7) Tj
+ET
+
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 2269 >>
+stream
+0 g
+BT
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 773.2 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 756.16 Tm
+(FastAPI Backend) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 739.12 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 722.08 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 705.04 Tm
+(CSV Validation) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 688 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 670.96 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 653.92 Tm
+(Dataset Cleaning) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 636.88 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 619.84 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 602.8 Tm
+(Kafka Producer) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 585.76 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 568.72 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 551.68 Tm
+(Kafka Topic) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 534.64 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 517.6 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 500.56 Tm
+(Kafka Consumer \(Loader\)) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 483.52 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 466.48 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 449.44 Tm
+(Neo4j Graph Database) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 432.4 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 415.36 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 398.32 Tm
+(User Question) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 381.28 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 364.24 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 347.2 Tm
+(Cypher Query) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 330.16 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 313.12 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 296.08 Tm
+(Neo4j) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 279.04 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 262 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 244.96 Tm
+(Answer Returned) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 227.92 Tm
+(4. Results of CSV Processing) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 193.84 Tm
+(The uploaded CRM dataset was successfully processed by the backend.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 176.8 Tm
+(Validation included:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 159.76 Tm
+(CSV format verification) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 142.72 Tm
+(Column validation) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 125.68 Tm
+(Duplicate detection) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 108.64 Tm
+(Missing value detection) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 91.6 Tm
+(Empty row removal) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 74.56 Tm
+(Header verification) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 2 of 7) Tj
+ET
+
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 17 0 R >>
+endobj
+19 0 obj
+<< /Length 2584 >>
+stream
+0 g
+BT
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 756.16 Tm
+(Cleaning operations included:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 739.12 Tm
+( Removing duplicate records) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 722.08 Tm
+(Trimming unnecessary whitespace) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 705.04 Tm
+(Standardizing text values) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 688 Tm
+(Filling missing values where applicable) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 670.96 Tm
+(Formatting dates) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 653.92 Tm
+(Validating email and phone number formats) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 619.84 Tm
+(The cleaned dataset was saved for further processing.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 585.76 Tm
+(5. Kafka Results) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 551.68 Tm
+(Apache Kafka successfully functioned as the messaging layer between the backend and) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 534.64 Tm
+(the graph database.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 500.56 Tm
+(Producer Results) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 483.52 Tm
+(Every CSV row was converted into an individual JSON message.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 466.48 Tm
+(Messages were published to the Kafka topic without blocking the application.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 449.44 Tm
+(Message serialization ensured structured communication.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 432.4 Tm
+(Consumer Results) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 415.36 Tm
+(The loader continuously monitored the Kafka topic.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 398.32 Tm
+(Messages were consumed in sequence.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 381.28 Tm
+(Every record was transferred to Neo4j for storage.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 364.24 Tm
+(Interpretation) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 330.16 Tm
+(Using Kafka improved scalability and reliability by decoupling the upload process from) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 313.12 Tm
+(database insertion. If Neo4j becomes temporarily unavailable, Kafka retains the messages) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 296.08 Tm
+(until the consumer resumes processing.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 262 Tm
+(6. Neo4j Results) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 227.92 Tm
+(The processed data was stored as graph nodes and relationships.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 193.84 Tm
+(Example entities:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 159.76 Tm
+(Customer) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 142.72 Tm
+(Company) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 125.68 Tm
+(Product) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 108.64 Tm
+(Order) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 91.6 Tm
+(Support Ticket) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 74.56 Tm
+(Sales Representative) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 3 of 7) Tj
+ET
+
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 19 0 R >>
+endobj
+21 0 obj
+<< /Length 2180 >>
+stream
+0 g
+BT
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 756.16 Tm
+(Relationships included:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 722.08 Tm
+(CUSTOMER_PLACED_ORDER) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 705.04 Tm
+(ORDER_CONTAINS_PRODUCT) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 688 Tm
+(CUSTOMER_HAS_TICKET) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 670.96 Tm
+(CUSTOMER_BELONGS_TO_COMPANY) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 653.92 Tm
+(Interpretation) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 619.84 Tm
+(The graph model enabled efficient traversal of connected information and simplified) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 602.8 Tm
+(relationship-based queries.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 568.72 Tm
+(7. Chatbot Results) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 534.64 Tm
+(The chatbot successfully responded to natural language questions by translating user) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 517.6 Tm
+(intent into Cypher queries.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 483.52 Tm
+(Example Questions:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 449.44 Tm
+(How many customers are from Chennai?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 432.4 Tm
+(Show all pending support tickets.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 415.36 Tm
+(Which sales representative handled Customer A?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 398.32 Tm
+(List all customers belonging to Company X.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 381.28 Tm
+(Show orders placed during July.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 347.2 Tm
+(The chatbot returned only information present in the uploaded dataset.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 313.12 Tm
+(If information was unavailable, the system responded appropriately instead of generating) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 296.08 Tm
+(incorrect answers.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 262 Tm
+(8. API Results) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 244.96 Tm
+(POST /ingest) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 210.88 Tm
+(Purpose:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 176.8 Tm
+(Uploads the CSV file and begins the ingestion process.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 142.72 Tm
+(Output:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 108.64 Tm
+(Upload status) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 91.6 Tm
+(Validation result) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 74.56 Tm
+(Number of processed rows) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 4 of 7) Tj
+ET
+
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 21 0 R >>
+endobj
+23 0 obj
+<< /Length 1744 >>
+stream
+0 g
+BT
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 773.2 Tm
+(POST /chat) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 739.12 Tm
+(Purpose:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 705.04 Tm
+(Receives a natural language question.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 670.96 Tm
+(Output:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 636.88 Tm
+(Generated Cypher query) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 619.84 Tm
+(Database response) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 602.8 Tm
+(Final chatbot answer) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 585.76 Tm
+(GET /status) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 551.68 Tm
+(Purpose:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 517.6 Tm
+(Displays ingestion progress.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 483.52 Tm
+(Output:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 449.44 Tm
+(Total rows processed) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 432.4 Tm
+(Remaining rows) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 415.36 Tm
+(Completion percentage) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 398.32 Tm
+(GET /health) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 364.24 Tm
+(Purpose:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 330.16 Tm
+(Checks service availability.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 296.08 Tm
+(Reports:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 262 Tm
+(Backend status) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 244.96 Tm
+(Kafka status) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 227.92 Tm
+(Neo4j status) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 210.88 Tm
+(9. Performance Interpretation) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 176.8 Tm
+(The implemented architecture demonstrated several strengths.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 142.72 Tm
+(Fast Data Processing) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 108.64 Tm
+(CSV records were streamed efficiently through Kafka without blocking the upload service.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 74.56 Tm
+(Asynchronous Processing) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 5 of 7) Tj
+ET
+
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 23 0 R >>
+endobj
+25 0 obj
+<< /Length 2316 >>
+stream
+0 g
+BT
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 756.16 Tm
+(Database insertion occurred independently of user interaction, reducing waiting time.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 722.08 Tm
+(Scalability) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 688 Tm
+(The producer and consumer architecture supports future expansion without significant) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 670.96 Tm
+(redesign.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 636.88 Tm
+(Reliability) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 602.8 Tm
+(Kafka ensured message persistence until successful consumption.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 568.72 Tm
+(Data Consistency) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 534.64 Tm
+(Using MERGE prevented duplicate nodes and relationships.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 500.56 Tm
+(10. Advantages) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 483.52 Tm
+(Automated CSV ingestion.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 466.48 Tm
+(Dynamic dataset support.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 449.44 Tm
+(Graph-based storage.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 432.4 Tm
+(Natural language querying.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 415.36 Tm
+(Modular architecture.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 398.32 Tm
+(Easy deployment using Docker.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 381.28 Tm
+(Scalable event-driven design.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 364.24 Tm
+(Improved maintainability.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 347.2 Tm
+(Separation of concerns.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 330.16 Tm
+(Reliable message delivery.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 291.88 Tm
+(11. Limitations) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 274.84 Tm
+(The current implementation has several limitations.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 240.76 Tm
+(Supports CSV files only.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 223.72 Tm
+(Basic natural language interpretation.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 206.68 Tm
+(Single Neo4j instance.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 189.64 Tm
+(No authentication mechanism.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 172.6 Tm
+(No cloud deployment.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 155.56 Tm
+(No role-based access control.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 138.52 Tm
+(Limited analytics dashboard.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 104.44 Tm
+(These limitations provide opportunities for future enhancements.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 70.36 Tm
+(12. Future Enhancements) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 6 of 7) Tj
+ET
+
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 25 0 R >>
+endobj
+27 0 obj
+<< /Length 1710 >>
+stream
+0 g
+BT
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 756.16 Tm
+(The system can be extended with the following features.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 722.08 Tm
+(Excel and JSON support.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 705.04 Tm
+(PDF data extraction.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 688 Tm
+(Authentication and authorization.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 670.96 Tm
+(Cloud deployment using Kubernetes.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 653.92 Tm
+(Large Language Model integration.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 636.88 Tm
+(Advanced semantic search.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 619.84 Tm
+(Real-time analytics dashboard.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 602.8 Tm
+(Multi-user support.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 585.76 Tm
+(Automated schema detection.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 568.72 Tm
+(Data visualization tools.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 530.44 Tm
+(13. Conclusion) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 513.4 Tm
+(                              The implementation successfully fulfilled the objective of building an) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 496.36 Tm
+(event-driven CSV data ingestion platform integrated with a graph database and a natural) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 479.32 Tm
+(language chatbot. Apache Kafka enabled reliable asynchronous communication, Neo4j) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 462.28 Tm
+(provided efficient graph storage, and FastAPI coordinated all system components. The) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 445.24 Tm
+(resulting architecture is modular, scalable, and suitable for handling dynamic datasets) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 428.2 Tm
+(while allowing users to retrieve information through conversational interactions.) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 7 of 7) Tj
+ET
+
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 27 0 R >>
+endobj
+xref
+0 29
+0000000000 65535 f
+0000000015 00000 n
+0000000064 00000 n
+0000000164 00000 n
+0000000261 00000 n
+0000000363 00000 n
+0000000468 00000 n
+0000000577 00000 n
+0000000676 00000 n
+0000000774 00000 n
+0000000874 00000 n
+0000000979 00000 n
+0000001075 00000 n
+0000001176 00000 n
+0000001280 00000 n
+0000001388 00000 n
+0000004459 00000 n
+0000004711 00000 n
+0000007033 00000 n
+0000007285 00000 n
+0000009922 00000 n
+0000010174 00000 n
+0000012407 00000 n
+0000012659 00000 n
+0000014456 00000 n
+0000014708 00000 n
+0000017077 00000 n
+0000017329 00000 n
+0000019092 00000 n
+trailer
+<< /Size 29 /Root 1 0 R >>
+startxref
+19344
+%%EOF

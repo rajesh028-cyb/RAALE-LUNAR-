@@ -1,0 +1,806 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R] /Count 6 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman /Encoding /WinAnsiEncoding >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold /Encoding /WinAnsiEncoding >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Italic /Encoding /WinAnsiEncoding >>
+endobj
+10 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-BoldItalic /Encoding /WinAnsiEncoding >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+12 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold /Encoding /WinAnsiEncoding >>
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+14 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-BoldOblique /Encoding /WinAnsiEncoding >>
+endobj
+15 0 obj
+<< /Length 3373 >>
+stream
+0 g
+BT
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 773.2 Tm
+(REPORT 1) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 756.16 Tm
+(Project Decisions & Architecture) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 739.12 Tm
+(Intelligent Graph Analytics Platform) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 722.08 Tm
+(Project Report - Part 1) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 705.04 Tm
+(Methods & Design Decisions) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 688 Tm
+(1. Problem Statement) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 670.96 Tm
+(Organizations frequently receive large CSV datasets containing business information such) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 653.92 Tm
+(as customer records, sales transactions, healthcare data, financial reports, and logistics) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 636.88 Tm
+(information. Extracting meaningful insights from these datasets requires technical) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 619.84 Tm
+(expertise in SQL or business intelligence tools, making data exploration difficult for) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 602.8 Tm
+(non-technical users.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 568.72 Tm
+(Our objective is to build an intelligent graph-based analytics platform that automatically) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 551.68 Tm
+(converts uploaded CSV datasets into a graph database and enables users to query the) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 534.64 Tm
+(data using natural language.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 500.56 Tm
+(2. Objectives) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 483.52 Tm
+(Objective Description) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 466.48 Tm
+(CSV Upload Accept any structured CSV dataset) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 449.44 Tm
+(Data Streaming Process uploaded data using Apache Kafka) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 432.4 Tm
+(Graph Construction Convert CSV rows into Neo4j graph nodes) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 415.36 Tm
+(Conversational Analytics Allow users to ask questions in natural language) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 398.32 Tm
+(Dashboard Generation Automatically summarize uploaded datasets) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 381.28 Tm
+(Scalable Deployment Deploy using Docker containers) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 364.24 Tm
+(3. Solution Overview) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 347.2 Tm
+(Our solution is divided into five independent services.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 330.16 Tm
+(Module Responsibility) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 313.12 Tm
+(Frontend CSV Upload, Dashboard, Chat Interface) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 296.08 Tm
+(FastAPI CSV Validation, API Management) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 279.04 Tm
+(Kafka Real-time Message Streaming) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 262 Tm
+(Loader Convert CSV into Graph) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 244.96 Tm
+(Neo4j Store Graph Database) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 206.68 Tm
+(4. Why We Chose This Architecture) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 189.64 Tm
+(Decision Reason) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 172.6 Tm
+(Microservices Independent deployment and scalability) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 155.56 Tm
+(Docker Easy setup and reproducibility) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 138.52 Tm
+(Kafka Reliable asynchronous processing) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 121.48 Tm
+(Neo4j Best suited for relationship-based querying) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 104.44 Tm
+(FastAPI High-performance REST APIs) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 87.4 Tm
+(Next.js Modern responsive frontend) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 1 of 6) Tj
+ET
+
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 1594 >>
+stream
+0 g
+BT
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 773.2 Tm
+(5. Alternatives Considered) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 756.16 Tm
+(Component Selected Alternative Reason) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 739.12 Tm
+(Database Neo4j MySQL Graph relationships are easier to query) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 722.08 Tm
+(Queue Kafka RabbitMQ Better streaming support) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 705.04 Tm
+(Backend FastAPI Flask Faster and asynchronous) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 688 Tm
+(Frontend Next.js React Routing and optimization) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 670.96 Tm
+(Deployment Docker Manual Installation Easy portability) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 632.68 Tm
+(6. Overall Workflow) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 615.64 Tm
+(User Uploads CSV) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 581.56 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 547.48 Tm
+(FastAPI) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 513.4 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 479.32 Tm
+(CSV Validation) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 445.24 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 411.16 Tm
+(Kafka) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 377.08 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 343 Tm
+(Loader Service) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 308.92 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 274.84 Tm
+(Neo4j Graph) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 240.76 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 206.68 Tm
+(Graph Ready) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 172.6 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 138.52 Tm
+(Chatbot) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 104.44 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 70.36 Tm
+(Cypher Query) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 2 of 6) Tj
+ET
+
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 17 0 R >>
+endobj
+19 0 obj
+<< /Length 1156 >>
+stream
+0 g
+BT
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 756.16 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 722.08 Tm
+(Answer) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 688 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 653.92 Tm
+(Dashboard) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 615.64 Tm
+(7. System Architecture) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 598.6 Tm
+(Next.js Frontend) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 564.52 Tm
+(Upload CSV Chat Interface) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 530.44 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 496.36 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 462.28 Tm
+(FastAPI API) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 428.2 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 394.12 Tm
+(CSV Validation) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 360.04 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 325.96 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 291.88 Tm
+(Apache Kafka) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 257.8 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 223.72 Tm
+(Message Streaming) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 189.64 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 155.56 Tm
+(Loader Service) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 121.48 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 87.4 Tm
+(Graph Construction) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 3 of 6) Tj
+ET
+
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 19 0 R >>
+endobj
+21 0 obj
+<< /Length 1546 >>
+stream
+0 g
+BT
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 773.2 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 739.12 Tm
+(Neo4j) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 705.04 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 670.96 Tm
+(Graph Query Engine) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 636.88 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 602.8 Tm
+(Dashboard + Chatbot) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 585.76 Tm
+(8. Design Principles) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 551.68 Tm
+(? Modular) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 517.6 Tm
+(? Scalable) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 483.52 Tm
+(? Fault Tolerant) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 449.44 Tm
+(? Dataset Independent) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 415.36 Tm
+(? Containerized) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 381.28 Tm
+(? Easy Deployment) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 347.2 Tm
+(? Fast Response) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 313.12 Tm
+(9. Technology Stack) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 274.84 Tm
+(Layer Technology) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 257.8 Tm
+(Frontend Next.js 15) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 240.76 Tm
+(Backend FastAPI) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 223.72 Tm
+(Streaming Apache Kafka) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 206.68 Tm
+(Database Neo4j) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 189.64 Tm
+(Language Python) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 172.6 Tm
+(UI Tailwind CSS) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 155.56 Tm
+(Deployment Docker) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 138.52 Tm
+(API REST) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 100.24 Tm
+(10. Data Flow) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 83.2 Tm
+(CSV) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 4 of 6) Tj
+ET
+
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 21 0 R >>
+endobj
+23 0 obj
+<< /Length 1539 >>
+stream
+0 g
+BT
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 773.2 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 739.12 Tm
+(Rows) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 705.04 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 670.96 Tm
+(Kafka Messages) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 636.88 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 602.8 Tm
+(Loader) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 568.72 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 534.64 Tm
+(Neo4j Nodes) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 500.56 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 466.48 Tm
+(Relationships) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 432.4 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 398.32 Tm
+(Graph) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 364.24 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 330.16 Tm
+(Cypher) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 296.08 Tm
+(?) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 262 Tm
+(Results) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 244.96 Tm
+(11. Key Features) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 227.92 Tm
+(Automatic CSV ingestion) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 210.88 Tm
+(Real-time Kafka streaming) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 193.84 Tm
+(Dynamic graph generation) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 176.8 Tm
+(Neo4j knowledge graph) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 159.76 Tm
+(Natural language chatbot) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 142.72 Tm
+(Dynamic dataset switching) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 125.68 Tm
+(Dashboard generation) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 108.64 Tm
+(Report generation) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 91.6 Tm
+(Docker deployment) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 74.56 Tm
+(REST APIs) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 5 of 6) Tj
+ET
+
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 23 0 R >>
+endobj
+25 0 obj
+<< /Length 2036 >>
+stream
+0 g
+BT
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 773.2 Tm
+(12. Innovation) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 739.12 Tm
+(Unlike traditional CSV analytics tools, our platform transforms structured tabular data into) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 722.08 Tm
+(a graph database and provides conversational access through an intelligent chatbot. The) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 705.04 Tm
+(system dynamically adapts to newly uploaded datasets without requiring predefined) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 688 Tm
+(schemas, enabling users to explore relationships and insights using natural language. The) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 670.96 Tm
+(integration of Apache Kafka, Neo4j, FastAPI, and Docker delivers a scalable, modular, and) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 653.92 Tm
+(production-ready architecture suitable for enterprise analytics.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 619.84 Tm
+(13. Expected Output) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 585.76 Tm
+(After uploading a dataset, users can:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 551.68 Tm
+(View dataset statistics) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 534.64 Tm
+(Explore column information) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 517.6 Tm
+(Ask questions in natural language) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 500.56 Tm
+(Retrieve graph-based insights) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 483.52 Tm
+(Generate automatic dashboards) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 466.48 Tm
+(Visualize key metrics) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 449.44 Tm
+(Query multiple uploaded datasets) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 432.4 Tm
+(14. Conclusion) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 398.32 Tm
+(The proposed architecture provides a modern, scalable, and intelligent approach to CSV) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 381.28 Tm
+(analytics. By combining streaming, graph databases, and conversational interfaces, the) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 364.24 Tm
+(platform simplifies data exploration while maintaining modularity, performance, and ease of) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 347.2 Tm
+(deployment.) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 6 of 6) Tj
+ET
+
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 25 0 R >>
+endobj
+xref
+0 27
+0000000000 65535 f
+0000000015 00000 n
+0000000064 00000 n
+0000000157 00000 n
+0000000254 00000 n
+0000000356 00000 n
+0000000461 00000 n
+0000000570 00000 n
+0000000669 00000 n
+0000000767 00000 n
+0000000867 00000 n
+0000000972 00000 n
+0000001068 00000 n
+0000001169 00000 n
+0000001273 00000 n
+0000001381 00000 n
+0000004807 00000 n
+0000005059 00000 n
+0000006706 00000 n
+0000006958 00000 n
+0000008167 00000 n
+0000008419 00000 n
+0000010018 00000 n
+0000010270 00000 n
+0000011862 00000 n
+0000012114 00000 n
+0000014203 00000 n
+trailer
+<< /Size 27 /Root 1 0 R >>
+startxref
+14455
+%%EOF

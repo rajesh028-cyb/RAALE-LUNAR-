@@ -1,0 +1,1063 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R] /Count 8 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman /Encoding /WinAnsiEncoding >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold /Encoding /WinAnsiEncoding >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Italic /Encoding /WinAnsiEncoding >>
+endobj
+10 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-BoldItalic /Encoding /WinAnsiEncoding >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+12 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold /Encoding /WinAnsiEncoding >>
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+14 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-BoldOblique /Encoding /WinAnsiEncoding >>
+endobj
+15 0 obj
+<< /Length 3194 >>
+stream
+0.07 0.42 0.87 rg
+56.69 753.28 332.17 12.48 re
+f
+0.29 0.59 0.99 rg
+56.69 685.12 473.41 12.48 re
+f
+0.29 0.59 0.99 rg
+56.69 668.08 96.7 12.48 re
+f
+0 g
+BT
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 773.2 Tm
+(PROJECT REPORT 3) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 756.16 Tm
+(Development Process, Honest Reflection, and Project Journey) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 722.08 Tm
+(Project Title:) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 688 Tm
+(Event-Driven CSV Data Ingestion and Graph-Based Chatbot using FastAPI, Apache) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 670.96 Tm
+(Kafka, and Neo4j) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 636.88 Tm
+(1. Introduction) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 602.8 Tm
+(This report documents the complete development journey of our project. It explains how) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 585.76 Tm
+(the idea was transformed into a working system, the technical challenges encountered) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 568.72 Tm
+(during implementation, the engineering decisions made, and the lessons learned) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 551.68 Tm
+(throughout the hackathon. Rather than focusing only on the final outcome, this report) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 534.64 Tm
+(presents an honest reflection on the development process and highlights areas for future) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 517.6 Tm
+(improvement.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 483.52 Tm
+(2. Project Vision) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 449.44 Tm
+(The primary goal of the project was to build an automated platform capable of processing) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 432.4 Tm
+(dynamic CRM datasets and enabling users to interact with the uploaded data using natural) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 415.36 Tm
+(language.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 381.28 Tm
+(Many organizations receive operational data in CSV format. Extracting meaningful) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 364.24 Tm
+(information from these files usually requires manual database imports and technical) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 347.2 Tm
+(knowledge of query languages. Our objective was to simplify this process by automating) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 330.16 Tm
+(data ingestion and providing an intuitive chatbot interface.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 296.08 Tm
+(3. Development Timeline) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 279.04 Tm
+(Phase Activities) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 262 Tm
+(Phase 1 Problem statement analysis and requirement gathering) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 244.96 Tm
+(Phase 2 Technology selection and architecture design) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 227.92 Tm
+(Phase 3 Frontend development) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 210.88 Tm
+(Phase 4 FastAPI backend implementation) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 193.84 Tm
+(Phase 5 Kafka producer and consumer integration) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 176.8 Tm
+(Phase 6 Neo4j graph database integration) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 159.76 Tm
+(Phase 7 Chatbot and Cypher query implementation) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 142.72 Tm
+(Phase 8 Testing, debugging, and documentation) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 104.44 Tm
+(4. Development Process) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 87.4 Tm
+(Phase 1 - Requirement Analysis) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 1 of 8) Tj
+ET
+
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 2433 >>
+stream
+0 g
+BT
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 773.2 Tm
+(The first step was understanding the hackathon problem statement. The team analyzed) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 756.16 Tm
+(the expected workflow, identified the required technologies, and defined the project scope.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 722.08 Tm
+(Key observations included:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 705.04 Tm
+(Dynamic CSV upload support.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 688 Tm
+(Event-driven architecture.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 670.96 Tm
+(Graph database integration.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 653.92 Tm
+(Conversational data retrieval.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 636.88 Tm
+(Modular software design.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 598.6 Tm
+(Phase 2 - Architecture Design) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 564.52 Tm
+(Before implementation, a complete system architecture was prepared.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 530.44 Tm
+(The objective was to ensure that every module performed a single responsibility while) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 513.4 Tm
+(remaining independent from the others.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 479.32 Tm
+(Major architectural components included:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 445.24 Tm
+(Frontend) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 428.2 Tm
+(FastAPI Backend) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 411.16 Tm
+(Dataset Processor) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 394.12 Tm
+(Kafka Producer) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 377.08 Tm
+(Kafka Consumer) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 360.04 Tm
+(Neo4j Database) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 343 Tm
+(Chat Service) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 308.92 Tm
+(This modular approach simplified development and future maintenance.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 274.84 Tm
+(Phase 3 - Frontend Development) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 240.76 Tm
+(A lightweight web interface was developed to provide two primary functions:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 206.68 Tm
+(CSV Upload) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 189.64 Tm
+(Chat Interface) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 155.56 Tm
+(The interface was intentionally kept simple to ensure usability and quick demonstration) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 138.52 Tm
+(during the hackathon.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 104.44 Tm
+(Phase 4 - Backend Development) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 70.36 Tm
+(FastAPI was selected as the backend framework because of its high performance and) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 2 of 8) Tj
+ET
+
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 17 0 R >>
+endobj
+19 0 obj
+<< /Length 2263 >>
+stream
+0 g
+BT
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 773.2 Tm
+(ease of API development.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 739.12 Tm
+(The backend was responsible for:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 705.04 Tm
+(Receiving uploaded CSV files.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 688 Tm
+(Reading datasets using Pandas.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 670.96 Tm
+(Validating uploaded files.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 653.92 Tm
+(Sending rows to Kafka.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 636.88 Tm
+(Handling chatbot requests.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 619.84 Tm
+(Communicating with Neo4j.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 602.8 Tm
+(Returning responses to users.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 564.52 Tm
+(Phase 5 - Kafka Integration) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 530.44 Tm
+(Apache Kafka was introduced as the messaging layer between the backend and Neo4j.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 496.36 Tm
+(Instead of directly writing data into the database, every CSV row was published as an) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 479.32 Tm
+(independent Kafka message.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 445.24 Tm
+(The Kafka Consumer continuously listened for incoming messages and transferred them) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 428.2 Tm
+(to Neo4j.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 394.12 Tm
+(This separation improved reliability and scalability.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 360.04 Tm
+(Phase 6 - Neo4j Integration) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 325.96 Tm
+(Neo4j was configured as the primary database.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 291.88 Tm
+(Instead of storing information in relational tables, the system represented the uploaded) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 274.84 Tm
+(CRM data using graph nodes and relationships.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 240.76 Tm
+(The Loader used the MERGE command to prevent duplicate nodes and maintain graph) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 223.72 Tm
+(consistency.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 189.64 Tm
+(Phase 7 - Chatbot Development) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 155.56 Tm
+(The chatbot was designed as a retrieval-based system.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 121.48 Tm
+(Instead of generating information, it retrieves answers from Neo4j.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 87.4 Tm
+(Workflow:) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 3 of 8) Tj
+ET
+
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 19 0 R >>
+endobj
+21 0 obj
+<< /Length 2184 >>
+stream
+0 g
+BT
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 773.2 Tm
+(Receive the user question.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 756.16 Tm
+(Convert it into a Cypher query.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 739.12 Tm
+(Execute the query.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 722.08 Tm
+(Retrieve matching records.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 705.04 Tm
+(Return the final response.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 670.96 Tm
+(This ensured that responses were based only on the uploaded dataset.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 636.88 Tm
+(5. Challenges Faced) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 602.8 Tm
+(Throughout the development process, several technical challenges were encountered.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 568.72 Tm
+(Challenge 1 - Kafka Configuration) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 534.64 Tm
+(Initially, configuring Kafka and establishing communication between the producer and) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 517.6 Tm
+(consumer required careful setup.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 483.52 Tm
+(Solution) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 449.44 Tm
+(A dedicated Kafka topic was created, and producer/consumer responsibilities were clearly) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 432.4 Tm
+(separated.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 398.32 Tm
+(Challenge 2 - Neo4j Data Modeling) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 364.24 Tm
+(Converting tabular CSV data into graph structures required careful planning.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 330.16 Tm
+(Solution) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 296.08 Tm
+(Graph nodes and relationships were designed before implementation to ensure) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 279.04 Tm
+(consistency.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 244.96 Tm
+(Challenge 3 - Duplicate Records) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 210.88 Tm
+(Repeated uploads could create duplicate nodes.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 176.8 Tm
+(Solution) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 142.72 Tm
+(The MERGE operation was used instead of CREATE during graph insertion.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 108.64 Tm
+(Challenge 4 - API Integration) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 74.56 Tm
+(Connecting the frontend, backend, Kafka, and Neo4j required proper API communication.) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 4 of 8) Tj
+ET
+
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 21 0 R >>
+endobj
+23 0 obj
+<< /Length 1950 >>
+stream
+0 g
+BT
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 756.16 Tm
+(Solution) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 722.08 Tm
+(REST APIs were designed with clear request and response formats.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 688 Tm
+(Challenge 5 - Dataset Quality) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 653.92 Tm
+(Uploaded CSV files contained inconsistent formatting.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 619.84 Tm
+(Solution) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 585.76 Tm
+(Dataset validation and cleaning steps were introduced before ingestion.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 551.68 Tm
+(6. Testing Process) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 517.6 Tm
+(The completed system was tested using multiple scenarios.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 483.52 Tm
+(Testing included:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 449.44 Tm
+(Valid CSV upload) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 432.4 Tm
+(Invalid CSV upload) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 415.36 Tm
+(Empty dataset) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 398.32 Tm
+(Duplicate records) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 381.28 Tm
+(Missing values) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 364.24 Tm
+(Chat queries) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 347.2 Tm
+(Neo4j insertion) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 330.16 Tm
+(Kafka message delivery) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 313.12 Tm
+(API responses) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 279.04 Tm
+(Each module was tested individually before performing complete system integration.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 244.96 Tm
+(7. Lessons Learned) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 210.88 Tm
+(This project provided practical experience in several engineering concepts.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 176.8 Tm
+(Event-Driven Architecture) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 142.72 Tm
+(Understanding how asynchronous communication improves scalability.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 108.64 Tm
+(REST API Development) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 74.56 Tm
+(Designing backend services using FastAPI.) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 5 of 8) Tj
+ET
+
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 23 0 R >>
+endobj
+25 0 obj
+<< /Length 1908 >>
+stream
+0 g
+BT
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 756.16 Tm
+(Apache Kafka) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 722.08 Tm
+(Learning producer-consumer communication.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 688 Tm
+(Graph Databases) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 653.92 Tm
+(Understanding nodes, relationships, and graph traversal.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 619.84 Tm
+(Cypher Query Language) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 585.76 Tm
+(Writing graph queries instead of SQL.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 551.68 Tm
+(Docker) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 517.6 Tm
+(Running multiple services in isolated containers.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 483.52 Tm
+(System Integration) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 449.44 Tm
+(Combining frontend, backend, messaging systems, and databases into a complete) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 432.4 Tm
+(solution.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 398.32 Tm
+(8. Honest Reflection) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 364.24 Tm
+(Several objectives were successfully achieved during development.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 330.16 Tm
+(Completed features:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 296.08 Tm
+(Dynamic CSV upload) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 279.04 Tm
+(Dataset validation) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 262 Tm
+(Dataset cleaning) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 244.96 Tm
+(Kafka integration) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 227.92 Tm
+(Neo4j integration) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 210.88 Tm
+(Graph storage) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 193.84 Tm
+(Chatbot interface) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 176.8 Tm
+(Cypher-based retrieval) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 159.76 Tm
+(Docker deployment) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 125.68 Tm
+(Areas that require further improvement:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 91.6 Tm
+(Better natural language understanding) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 74.56 Tm
+(Authentication and user management) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 6 of 8) Tj
+ET
+
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 25 0 R >>
+endobj
+27 0 obj
+<< /Length 2377 >>
+stream
+0 g
+BT
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 773.2 Tm
+(Advanced graph visualization) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 756.16 Tm
+(Multi-file support) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 739.12 Tm
+(Cloud deployment) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 722.08 Tm
+(Performance optimization for very large datasets) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 688 Tm
+(This reflection represents the current state of the project and identifies realistic) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 670.96 Tm
+(opportunities for enhancement.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 636.88 Tm
+(9. Future Roadmap) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 602.8 Tm
+(The project can be extended with several advanced capabilities.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 568.72 Tm
+(Future improvements include:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 534.64 Tm
+(Excel and JSON file support) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 517.6 Tm
+(PDF document ingestion) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 500.56 Tm
+(Role-based authentication) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 483.52 Tm
+(Cloud deployment using Kubernetes) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 466.48 Tm
+(AI-assisted query interpretation) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 449.44 Tm
+(Interactive analytics dashboard) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 432.4 Tm
+(Real-time monitoring) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 415.36 Tm
+(Multi-user collaboration) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 398.32 Tm
+(Automated schema detection) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 381.28 Tm
+(Graph visualization tools) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 347.2 Tm
+(These additions would improve usability, scalability, and enterprise readiness.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 313.12 Tm
+(10. Team Contribution) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 279.04 Tm
+(The project was completed through collaboration across multiple development areas.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 244.96 Tm
+(Key responsibilities included:) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 210.88 Tm
+(Requirement analysis) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 193.84 Tm
+(Architecture design) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 176.8 Tm
+(Frontend development) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 159.76 Tm
+(Backend implementation) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 142.72 Tm
+(Kafka integration) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 125.68 Tm
+(Neo4j integration) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 108.64 Tm
+(Testing and debugging) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 91.6 Tm
+(Documentation) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 7 of 8) Tj
+ET
+
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 27 0 R >>
+endobj
+29 0 obj
+<< /Length 1968 >>
+stream
+0 g
+BT
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 773.2 Tm
+(Each phase contributed to the successful completion of the system.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 739.12 Tm
+(11. Conclusion) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 705.04 Tm
+(The project successfully demonstrates how event-driven architecture can simplify data) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 688 Tm
+(ingestion and retrieval from dynamic datasets. By combining FastAPI, Apache Kafka,) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 670.96 Tm
+(Neo4j, and Cypher, we developed a modular system capable of processing uploaded CSV) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 653.92 Tm
+(files and providing conversational access to the stored information.) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 619.84 Tm
+(The development process highlighted the importance of modular software design, reliable) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 602.8 Tm
+(messaging systems, graph databases, and effective API integration. Although there are) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 585.76 Tm
+(opportunities for future enhancement, the current implementation provides a scalable and) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 568.72 Tm
+(maintainable solution that satisfies the primary objectives of the hackathon problem) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 551.68 Tm
+(statement.) Tj
+0 g
+/F2 12 Tf
+1 0 0 1 56.69 517.6 Tm
+(Final Reflection) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 483.52 Tm
+(This project was not only an implementation exercise but also a learning experience in) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 466.48 Tm
+(designing distributed systems. It strengthened our understanding of event-driven) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 449.44 Tm
+(architectures, graph databases, backend development, and system integration. The) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 432.4 Tm
+(experience gained during this project provides a strong foundation for building larger,) Tj
+0 g
+/F1 12 Tf
+1 0 0 1 56.69 415.36 Tm
+(enterprise-scale data processing applications in the future.) Tj
+0 g
+/F1 9.6 Tf
+1 0 0 1 273.09 28.35 Tm
+(Page 8 of 8) Tj
+ET
+
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R /F6 8 0 R /F7 9 0 R /F8 10 0 R /F9 11 0 R /F10 12 0 R /F11 13 0 R /F12 14 0 R >> >> /Contents 29 0 R >>
+endobj
+xref
+0 31
+0000000000 65535 f
+0000000015 00000 n
+0000000064 00000 n
+0000000171 00000 n
+0000000268 00000 n
+0000000370 00000 n
+0000000475 00000 n
+0000000584 00000 n
+0000000683 00000 n
+0000000781 00000 n
+0000000881 00000 n
+0000000986 00000 n
+0000001082 00000 n
+0000001183 00000 n
+0000001287 00000 n
+0000001395 00000 n
+0000004642 00000 n
+0000004894 00000 n
+0000007380 00000 n
+0000007632 00000 n
+0000009948 00000 n
+0000010200 00000 n
+0000012437 00000 n
+0000012689 00000 n
+0000014692 00000 n
+0000014944 00000 n
+0000016905 00000 n
+0000017157 00000 n
+0000019587 00000 n
+0000019839 00000 n
+0000021860 00000 n
+trailer
+<< /Size 31 /Root 1 0 R >>
+startxref
+22112
+%%EOF
